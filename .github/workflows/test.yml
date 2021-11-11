@@ -21,4 +21,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Detect Raspberry Pi Model
-        run: cat /proc/device-tree/model
+        run: |
+          cat /proc/device-tree/model
+          uname -a
