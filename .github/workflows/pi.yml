@@ -25,4 +25,5 @@ jobs:
       - name: Lights
         run: |
           pkill -f python3 || true
-          python3 ${GITHUB_WORKSPACE}/color.py
+          python3 ${GITHUB_WORKSPACE}/color.py &
+          
