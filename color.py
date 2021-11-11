@@ -14,7 +14,7 @@ Press Ctrl+C to exit!
 unicornhatmini = UnicornHATMini()
 unicornhatmini.set_brightness(1)
 while True:
-    # set all pixels to red
-    unicornhatmini.set_all(255, 0, 0)
+    # set all pixels to blue
+    unicornhatmini.set_all(0, 0, 255)
     unicornhatmini.show()
     time.sleep(1.0 / 10)
