@@ -22,5 +22,5 @@ jobs:
 
       - name: Lights
         run: |
-          pkill -f python3
+          pkill -f python3 || true
           python3 color.py
