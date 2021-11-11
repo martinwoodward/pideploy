@@ -23,7 +23,5 @@ jobs:
           uname -mo
 
       - name: Lights
-        run: |
-          pkill -f python3 || true
-          python3 ${GITHUB_WORKSPACE}/color.py &
+        run: python3 ${GITHUB_WORKSPACE}/color.py &
           
