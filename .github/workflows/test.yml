@@ -23,4 +23,4 @@ jobs:
       - name: Detect Raspberry Pi Model
         run: |
           cat /proc/device-tree/model
-          uname -a
+          uname -mo
