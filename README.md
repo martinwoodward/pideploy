@@ -5,8 +5,8 @@ The example shows using local self-hosted runners on-premises by making use of a
 ### Usage
 
 This is an interactive demo.
- - Leave a comment on an issue with an RGB hex code to change the light color
- - Star the repo to make all the colors of the rainbow appear
+ - Leave a [comment on an issue](https://github.com/martinwoodward/pideploy/issues/1) with an RGB hex code to change the light color
+ - Star this repo to make all the colors of the rainbow appear
 
 ### Equipment
  - [Raspberry Pi Zero W](https://shop.pimoroni.com/products/raspberry-pi-zero-2-w) (get a WH model if available and you don't like soldering)
