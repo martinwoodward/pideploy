@@ -24,7 +24,7 @@ if len(sys.argv) > 1:
 unicornhatmini = UnicornHATMini()
 unicornhatmini.set_brightness(1)
 
-print("rgb: " + sys.argv[1])
+print("rgb: " + rgb)
 
 # Show color on Unicorn HAT Mini until process is terminated
 while True:
