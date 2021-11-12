@@ -1,0 +1,12 @@
+name: sparkle
+
+on: [watch, workflow_dispatch]
+
+jobs:
+  sparkle:
+
+    runs-on: pizero
+
+    steps:
+    - name: 🌈 lights
+      run: python3 ${GITHUB_WORKSPACE}/rainbow.py
