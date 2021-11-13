@@ -10,10 +10,6 @@ jobs:
     runs-on: pizero
       
     steps:
-    - name: Get comment
-      run: |
-        echo "Comment left on an issue: ${{ github.event.comment.body }}"
-  
     - id: set_light_colour
       name: Get color
       run: |
